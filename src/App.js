@@ -1,22 +1,16 @@
+import download from "./download.png";
 export default function App() {
-  let list = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
   return (
     <div className="container-fluid">
-      <div className="row bg-dark text-white sticky-top">
-        <div className="col-12 p-3 d-flex justify-content-center align-items-center">
-          React
+      <div
+        className="row bg-dark "
+        style={{ backgroundColor: "black", height: "100vh" }}
+      >
+        <div className="d-flex justify-content-center align-items-center">
+          <img src={download} alt="" height={250} width={200}></img>
+          <h1 className="text-white">React Js</h1>
         </div>
       </div>
-
-      {list.map((item) => (
-        <div className="row bg-secondary mt-1 p-2">
-          <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying out print, graphic or web designs. The passage is
-            attributed to an unknown ...
-          </div>
-        </div>
-      ))}
     </div>
   );
 }
