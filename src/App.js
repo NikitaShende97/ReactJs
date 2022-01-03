@@ -1,4 +1,5 @@
 export default function App() {
+  let list = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
   return (
     <div className="container-fluid">
       <div className="row bg-dark text-white sticky-top">
@@ -7,119 +8,15 @@ export default function App() {
         </div>
       </div>
 
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
+      {list.map((item) => (
+        <div className="row bg-secondary mt-1 p-2">
+          <div className="col-12 text-white d-flex justify-content-center align-items-center ">
+            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+            in laying out print, graphic or web designs. The passage is
+            attributed to an unknown ...
+          </div>
         </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
-      <div className="row bg-secondary mt-1 p-2">
-        <div className="col-12 text-white d-flex justify-content-center align-items-center ">
-          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-          laying out print, graphic or web designs. The passage is attributed to
-          an unknown ...
-        </div>
-      </div>
+      ))}
     </div>
   );
 }
