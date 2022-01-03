@@ -13,4 +13,8 @@ function dislike(param) {
   prev.innerHTML = newVal;
   console.log(newVal);
 }
-export default { like, dislike };
+
+function displayMsg() {
+  alert("Thank You for  registration!!!");
+}
+export default { like, dislike, displayMsg };
